@@ -1,25 +1,26 @@
-import numpy as np
-import matplotlib.pyplot as plt
-from opensimplex import OpenSimplex
-from adjustText import adjust_text
 import random
-import matplotlib
-import matplotlib.colors as mcolors
-from sklearn.cluster import KMeans
-from scipy.ndimage import label, center_of_mass, zoom
-from scipy.spatial import Delaunay
-from sklearn.cluster import DBSCAN
-from scipy.spatial import Voronoi
-from scipy.ndimage import zoom, gaussian_filter, binary_dilation
-import plotly.graph_objects as go
-import numpy as np
-from matplotlib.colors import to_hex
-import seaborn as snst
-import matplotlib.pyplot as plt
-from skimage.measure import regionprops
-from scipy.ndimage import label
-from adjustText import adjust_text
 from queue import Queue
+
+import numpy as np
+import matplotlib
+import matplotlib.pyplot as plt
+from matplotlib.colors import to_hex
+import matplotlib.colors as mcolors
+from adjustText import adjust_text
+from opensimplex import OpenSimplex
+from scipy.ndimage import (
+    label,
+    center_of_mass,
+    zoom,
+    gaussian_filter,
+    binary_dilation,
+)
+from scipy.spatial import Delaunay, Voronoi
+from sklearn.cluster import KMeans, DBSCAN
+import seaborn as sns
+from skimage.measure import regionprops
+import plotly.graph_objects as go
+
 
 matplotlib.rc('font', family='Comic Sans MS')
 
